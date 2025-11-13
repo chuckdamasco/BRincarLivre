@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    font-size: 2em;
+}
+
+.cabecalho button {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cabecalho button:hover {
+    background: white;
+    color: #667eea;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #4a90e2;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.section p, .section li {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    margin-left: 20px;
+}
+
+.cta {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+.btn-primario, .btn-secundario {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primario {
+    background: white;
+    color: #667eea;
+}
+
+.btn-secundario {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-primario:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secundario:hover {
+    background: white;
+    color: #667eea;
+}
